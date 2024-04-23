@@ -10,7 +10,7 @@ public class OperadoresLogicos {
         System.out.println(10 < 15 && 10 < 11);
 
         // OR // OU
-        System.out.println(10 < 15 || 2 > 5);
+        System.out.println(10 > 15 || 2 > 5);
 
     }
 }
