@@ -10,15 +10,14 @@ public class App {
         System.out.println("Nome: " + joao.nome);
         System.out.println("Telefone: " + joao.telefone);
         System.out.println("Endereço: " + joao.endereco);
-        joao.atender("Antonio");
-        System.out.println();
+        // joao.atender("Antonio");
 
         var maria = new Diarista("Maria da Penha", "(34) 998774580", "Av Portugal, 1523");
 
         System.out.println("Nome: " + maria.nome);
         System.out.println("Telefone: " + maria.telefone);
         System.out.println("Endereço: " + maria.endereco);
-        maria.atender("Hialen");
+        // maria.atender("Hialen");
 
         var gustavo = new Diarista("Gustavo Henrique da Silva");
         System.out.println("Nome: " + gustavo.nome);
